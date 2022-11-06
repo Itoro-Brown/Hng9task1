@@ -35,7 +35,7 @@ function Contact() {
                     placeholder="Enter your first name" 
 
 
-                  />
+                 required />
                 </div>
                 <div id="second-name-container">
                   <label>Last Name</label>
