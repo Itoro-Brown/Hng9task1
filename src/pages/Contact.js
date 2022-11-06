@@ -43,7 +43,7 @@ function Contact() {
                     id="last_name"
                     placeholder="Enter your last name" 
 
-                  />
+                 required />
                 </div>
                 <div>
 
@@ -52,7 +52,7 @@ function Contact() {
 
               <div id="email" className="inputs">
                 <label>Email</label>
-                <input type="email" placeholder="yourname@email.com" />
+                <input type="email" placeholder="yourname@email.com" required />
               </div>
               <div id="message" className="inputs">
                 <label>Message</label>
@@ -66,7 +66,7 @@ function Contact() {
                 {errorr ? <div className='warning'>Please input your messages here</div> : ""}
               </div>
               <div id="checkbox-area" className="inputs">
-                <input type="checkbox" id="checkbox" />
+                <input type="checkbox" id="checkbox" required />
                 <p>
                   You agree to providing your data to {name} who may
                   contact you.
